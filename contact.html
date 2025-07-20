@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Mukesh - Professional Video Editor | Cricket Gear Content Creator</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>Mukesh</h2>
+                <span>Video Editor</span>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link active">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Contact Hero Section -->
+        <section class="contact-hero">
+            <div class="container">
+                <h1>Get In Touch</h1>
+                <p>Let's discuss your next cricket gear video project</p>
+            </div>
+        </section>
+
+        <!-- Contact Content -->
+        <section class="contact-content">
+            <div class="container">
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <h2>Let's Work Together</h2>
+                        <p>
+                            Ready to create amazing cricket gear content? I'd love to hear about your project and discuss how we can bring your vision to life. 
+                            Whether you need product reviews, promotional videos, or educational content, I'm here to help.
+                        </p>
+
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h3>Email</h3>
+                                <p>mukesh.videoeditor@gmail.com</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <h3>Phone</h3>
+                                <p>+91 98765 43210</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <i class="fab fa-instagram"></i>
+                            <div>
+                                <h3>Instagram</h3>
+                                <p>@mukesh_videoeditor</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <i class="fas fa-clock"></i>
+                            <div>
+                                <h3>Response Time</h3>
+                                <p>Usually within 24 hours</p>
+                            </div>
+                        </div>
+
+                        <div style="margin-top: 2rem;">
+                            <h3>Follow My Work</h3>
+                            <p>Check out my latest cricket gear videos and behind-the-scenes content on Instagram.</p>
+                            <a href="https://instagram.com/mukesh_videoeditor" target="_blank" class="btn btn-outline">
+                                <i class="fab fa-instagram"></i> Follow on Instagram
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="contact-form">
+                        <h2>Send Me a Message</h2>
+                        <form id="contactForm">
+                            <div class="form-group">
+                                <label for="name">Full Name *</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="email">Email Address *</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="phone">Phone Number</label>
+                                <input type="tel" id="phone" name="phone">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="company">Company/Brand</label>
+                                <input type="text" id="company" name="company">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="projectType">Project Type</label>
+                                <select id="projectType" name="projectType">
+                                    <option value="">Select Project Type</option>
+                                    <option value="product-review">Product Review Video</option>
+                                    <option value="promotional">Promotional Content</option>
+                                    <option value="tutorial">Tutorial/Educational Content</option>
+                                    <option value="social-media">Social Media Content</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="budget">Budget Range</label>
+                                <select id="budget" name="budget">
+                                    <option value="">Select Budget Range</option>
+                                    <option value="under-5000">Under ₹5,000</option>
+                                    <option value="5000-10000">₹5,000 - ₹10,000</option>
+                                    <option value="10000-25000">₹10,000 - ₹25,000</option>
+                                    <option value="25000-50000">₹25,000 - ₹50,000</option>
+                                    <option value="50000-plus">₹50,000+</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="timeline">Project Timeline</label>
+                                <select id="timeline" name="timeline">
+                                    <option value="">Select Timeline</option>
+                                    <option value="urgent">Urgent (1-3 days)</option>
+                                    <option value="week">Within a week</option>
+                                    <option value="2-weeks">2-3 weeks</option>
+                                    <option value="month">Within a month</option>
+                                    <option value="flexible">Flexible</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="message">Project Details *</label>
+                                <textarea id="message" name="message" placeholder="Please describe your project, goals, and any specific requirements..." required></textarea>
+                            </div>
+
+                            <button type="submit" class="submit-btn">
+                                <i class="fas fa-paper-plane"></i> Send Message
+                            </button>
+                        </form>
+                    </div>
+                </div>
+
+                <!-- FAQ Section -->
+                <div style="margin-top: 4rem;">
+                    <h2 style="text-align: center; margin-bottom: 3rem; color: #1e293b;">Frequently Asked Questions</h2>
+                    <div class="services-grid">
+                        <div class="service-card">
+                            <div class="service-icon">
+                                <i class="fas fa-question"></i>
+                            </div>
+                            <h3>What's included in a video project?</h3>
+                            <p>Each project includes concept development, filming/editing, multiple revisions, and final delivery in your preferred format.</p>
+                        </div>
+                        <div class="service-card">
+                            <div class="service-icon">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                            <h3>How long does it take?</h3>
+                            <p>Most projects are completed within 1-2 weeks, depending on complexity. Rush orders can be accommodated for urgent needs.</p>
+                        </div>
+                        <div class="service-card">
+                            <div class="service-icon">
+                                <i class="fas fa-file-video"></i>
+                            </div>
+                            <h3>What formats do you deliver?</h3>
+                            <p>I deliver in all standard formats including MP4, MOV, and optimized versions for Instagram, YouTube, and other platforms.</p>
+                        </div>
+                        <div class="service-card">
+                            <div class="service-icon">
+                                <i class="fas fa-redo"></i>
+                            </div>
+                            <h3>What about revisions?</h3>
+                            <p>Each project includes up to 3 rounds of revisions to ensure the final product meets your expectations perfectly.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Mukesh</h3>
+                    <p>Professional video editor specializing in cricket gear content creation.</p>
+                    <div class="social-links">
+                        <a href="https://instagram.com/mukesh_videoeditor" target="_blank">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="mailto:mukesh.videoeditor@gmail.com">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                        <a href="tel:+919876543210">
+                            <i class="fas fa-phone"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li>Cricket Gear Reviews</li>
+                        <li>Promotional Videos</li>
+                        <li>Tutorial Content</li>
+                        <li>Social Media Content</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Mukesh Video Editor. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
